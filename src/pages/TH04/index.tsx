@@ -8,7 +8,7 @@ import TraCuuVanBang from './TraCuuVanBang';
 
 const Bai4Main = () => {
   // Gọi đúng tên model "localStorage" (tương ứng với tên file localStorage.ts)
-  const storageModel = useModel('localStorage');
+  const storageModel = useModel('TH04.localStorage');
 
   return (
     <PageContainer title="HỆ THỐNG QUẢN LÝ VĂN BẰNG (TH04) - PTIT">
