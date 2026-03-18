@@ -132,7 +132,7 @@ const Bai3Main = () => {
 
         <Tabs.TabPane tab="4. Báo cáo thống kê" key="4">
 
-          <ThongKeBaoCao lichHen={lichHen} />
+          <ThongKeBaoCao lichHen={lichHen} nhanVien={[]} />
 
         </Tabs.TabPane>
 
