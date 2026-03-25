@@ -119,4 +119,10 @@
     // Bạn có thể thêm các route con khác ở đây nếu muốn tách trang riêng
   ],
 },
+{
+  path: '/thuc-hanh-05',
+  name: 'Thực hành 05',
+  icon: 'TeamOutlined',
+  component: './th05/th05',        // File chính chứa Tabs
+},
 ];
