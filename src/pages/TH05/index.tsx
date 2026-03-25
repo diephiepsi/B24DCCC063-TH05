@@ -26,7 +26,7 @@ const TH05Index = () => {
 				</Tabs.TabPane>
 
 				<Tabs.TabPane tab='4. Thống kê' key='4'>
-					<Reports {...model} />
+					{/* <Reports {...model} /> */}
 				</Tabs.TabPane>
 			</Tabs>
 		</PageContainer>
