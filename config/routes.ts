@@ -134,7 +134,7 @@
 	{
 		path: '/thuc-hanh-05',
 		name: 'Bài thực hành 05',
-		icon: 'ScheduleOutlined',
-		component: './CLB/QuanLyDangKy',
+		icon: 'TeamOutlined',
+		component: './TH05/index',
 	},
 ];
