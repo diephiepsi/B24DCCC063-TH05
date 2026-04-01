@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
-import { Tabs, Card, Switch, Space } from 'antd'; 
+import { Tabs, Card} from 'antd'; 
 import { useModel } from 'umi';
 import Clubs from './Clubs';
 import Applications from './Applications';
