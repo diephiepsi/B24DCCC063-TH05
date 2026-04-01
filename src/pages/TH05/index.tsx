@@ -18,19 +18,19 @@ const TH05Index: React.FC = () => {
 			<Card bordered={false}>
 				<Tabs defaultActiveKey='1' type='card'>
 					<TabPane tab='1. Danh sách CLB' key='1'>
-						<Clubs {...model} />
+						<Clubs {...(model || {})} />
 					</TabPane>
 
 					<TabPane tab='2. Đơn đăng ký' key='2'>
-						<Applications {...model} />
+						<Applications {...(model || {})} />
 					</TabPane>
 
 					<TabPane tab='3. Thành viên' key='3'>
-						<Members {...model} />
+						<Members {...(model || {})} />
 					</TabPane>
 
 					<TabPane tab='4. Thống kê' key='4'>
-						<Reports {...model} />
+						<Reports {...(model || {})} />
 					</TabPane>
 				</Tabs>
 			</Card>
