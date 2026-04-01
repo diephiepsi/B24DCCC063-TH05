@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-import { Table, Button, Space, Typography, Card, Tag, Alert } from 'antd';
-import { DeleteOutlined, ArrowUpOutlined, ArrowDownOutlined, ClockCircleOutlined } from '@ant-design/icons';
-import Popconfirm from 'antd/es/popconfirm';
-
-const { Title, Text } = Typography;
-=======
 import { Table, Button, Space, Popconfirm, Card, Tag } from 'antd';
 import { DeleteOutlined, ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 import { formatCurrency } from '../utils';
->>>>>>> 015dd9cbaf318bbbf91c5d7e61b0257f1a963537
 
 const Itinerary = (props: any) => {
   const { itinerary, setItinerary } = props;
