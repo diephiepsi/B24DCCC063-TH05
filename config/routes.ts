@@ -1,4 +1,6 @@
-﻿export default [
+﻿import component from '@/locales/en-US/component';
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -129,17 +131,17 @@
 		icon: 'TeamOutlined',
 		component: './TH06/index',
 	},
+	{
+		path: '/thuc-hanh-07',
+		name: 'Bài thực hành 07',
+		icon: 'TeamOutlined',
+		component: './TH07/index',
+	},
 
 	{
-		path: '/thuc-hanh-07', // Sửa lại đường dẫn cha cho đồng bộ
+		path: '/profile',
 		name: 'ProfileCard',
 		icon: 'UserOutlined',
-		routes: [
-			{
-				path: '/thuc-hanh-07/profile-card', // Con phải nằm trong cha
-				name: 'Profile Card Responsive',
-				component: './TH/ProfileCard',
-			},
-		],
+		component: './TH/ProfileCard',
 	},
 ];
